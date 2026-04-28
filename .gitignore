@@ -28,9 +28,10 @@ appsettings.Development.json
 [Rr]elease/
 **/[Cc]ache/
 
+# Files to ignore for this project
+blueprint.md
+GEMINI.md
+
 # Other
 *.DS_Store
 *.swp
-
-blueprint.md
-GEMINI.md
