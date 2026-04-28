@@ -1,0 +1,36 @@
+# C#/.NET
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+*.user
+*.suo
+
+# Visual Studio
+.vs/
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+appsettings.Development.json
+
+# Build results
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+**/[Cc]ache/
+
+# Other
+*.DS_Store
+*.swp
+
+blueprint.md
+GEMINI.md

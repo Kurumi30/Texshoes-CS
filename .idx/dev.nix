@@ -12,7 +12,7 @@
     extensions = [ "muhammad-sammy.csharp" "rangav.vscode-thunder-client" ];
     workspace = {
       # Runs when a workspace is (re)started
-      onStart = { run-server = "dotnet watch --urls=http://localhost:3000"; };
+      onStart = { run-server = "dotnet watch --urls = http://localhost:3000"; };
     };
   };
 }
