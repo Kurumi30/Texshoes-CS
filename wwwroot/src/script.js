@@ -12,6 +12,19 @@ function closeModal(modal) {
   modal.setAttribute('aria-hidden', 'true')
 }
 
+// Função auxiliar para obter os itens do carrinho de forma robusta
+function getItemsFromCart(cart) {
+  if (!cart || !cart.items) {
+    return [];
+  }
+  // Se a API retornar com a sintaxe de preservação de referência ($values)
+  if (cart.items.$values) {
+    return cart.items.$values;
+  }
+  // Caso contrário, retorna o array de itens diretamente
+  return cart.items;
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   const $ = (sel, ctx = document) => ctx.querySelector(sel)
   const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel))
@@ -88,6 +101,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return ''
   }
 
+  // Função que busca os dados do carrinho e atualiza o contador na UI
   async function updateCartCounter() {
     const cartId = localStorage.getItem('cartId');
     if (!cartId) {
@@ -98,7 +112,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch(`/api/cart/${cartId}`);
         if (response.ok) {
             const cart = await response.json();
-            const totalItems = cart.items.$values.reduce((sum, item) => sum + item.quantity, 0);
+            // Usa a função auxiliar para garantir que os itens sejam lidos corretamente
+            const items = getItemsFromCart(cart); 
+            const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
             if (cartCounter) cartCounter.textContent = totalItems;
         } else {
             if (cartCounter) cartCounter.textContent = '0';
@@ -108,6 +124,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // Função que lida com a adição de um item ao carrinho
   async function handleAddToCart(shoeId, button) {
     if (!shoeId) return;
 
@@ -132,7 +149,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (response.ok) {
             const cart = await response.json();
             localStorage.setItem('cartId', cart.id);
-            updateCartCounter(); 
+            
+            // *** AQUI ESTÁ A CORREÇÃO REAL ***
+            // A função `updateCartCounter` é chamada, e ela agora sabe como ler a resposta.
+            await updateCartCounter();
+
+            Swal.fire({
+                toast: true,
+                position: 'top-end',
+                icon: 'success',
+                title: 'Adicionado ao carrinho!',
+                showConfirmButton: false,
+                timer: 1500,
+                timerProgressBar: true
+            });
 
             button.textContent = 'Adicionado!';
             setTimeout(() => {
@@ -188,7 +218,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       return
     }
 
-    // filtra conforme categoria selecionada
     currentFiltered = selectedCategory === 'all'
       ? allProducts
       : allProducts.filter(p => p.category === selectedCategory)
@@ -345,6 +374,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // Carrega o contador inicial na abertura da página
   updateCartCounter();
 
     try {
@@ -356,8 +386,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         const data = await resp.json();
-        // Verifica se a resposta tem a estrutura de referência preservada ($values)
-        const products = data.$values || data;
+        const products = getItemsFromCart({ items: data }) || data; // Usa a função auxiliar para os produtos também
 
         if (!products || !products.length) {
             throw new Error('Nenhum produto encontrado no estoque.');
@@ -379,5 +408,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         setupModalControls();
     } catch (err) {
         console.error('Erro carregando produtos:', err);
+        productGrid.innerHTML = '<p class="no-products" style="text-align:center;">Erro ao carregar os produtos. Tente novamente mais tarde.</p>'
     }
 });
