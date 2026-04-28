@@ -12,12 +12,10 @@ Console.WriteLine($"A porta configurada é: {port}");
 builder.Services.AddDbContext<TexShoesDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        // Adiciona o manipulador de referência para evitar ciclos de objeto
-        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-    });
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+});
 
 // Add services for Swagger
 builder.Services.AddEndpointsApiExplorer();
