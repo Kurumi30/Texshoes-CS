@@ -1,0 +1,1073 @@
+[
+  {
+    "id": 14,
+    "name": "Air Max Dn",
+    "category": "casual",
+    "price": 549.99,
+    "image": "src/images/model-14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Nike SB Dunk Low",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Tênis Vans KNU Branco",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-16.jpg"
+  },
+  {
+    "id": 17,
+    "name": " Air Jordan 1 Low Travis Scott x Fragment",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Air Jordan 1 Low Shadow Toe",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Air Jordan 1 Low Chicago Flip",
+    "category": "casual",
+    "price": 259.90,
+    "image": "src/images/model-19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Tênis Vans KNU Preto",
+    "category": "casual",
+    "price": 279.90,
+    "image": "src/images/model-20.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Nike Air Max Dn X Light Smoke Grey",
+    "category": "esportivo",
+    "price": 449.99,
+    "image": "src/images/model-21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Tênis Vans KNU Preto",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Air Jordan 1 Mid SE Black Grey",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-23.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nike Air Force 1 Low Black White",
+    "category": "casual",
+    "price": 259.90,
+    "image": "src/images/model-24.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Nike Dunk Low Medium Olive",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-25.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Nike Dunk Low Grey Fog",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-26.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Nike Air Max Dn X Light Smoke Grey",
+    "category": "casual",
+    "price": 549.99,
+    "image": "src/images/model-27.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Tênis Vans KNU Vinho",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-28.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Nike SB Dunk Low",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Air Jordan 1 Mid SE Black Grey",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-30.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Nike Air Force 1 Low FN",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-31.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Nike SB Dunk Low Black",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-32.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Nike SB Dunk Low Black",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-33.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Nike SB Dunk Low",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-34.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Nike Air Force 1 Low Black White Rope Laces",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-35.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Air Jordan 1 Mid Light Smoke Grey",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-36.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Air Max TN 95",
+    "category": "esportivo",
+    "price": 549.99,
+    "image": "src/images/model-37.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Nike Air Force 1 Low Wolf Grey",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-38.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Puma Palermo",
+    "category": "casual",
+    "price": 219.99,
+    "image": "src/images/model-39.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Tênis GUCCI X BLUE INTERLOCKING",
+    "category": "esportivo",
+    "price": 379.99,
+    "image": "src/images/model-40.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Nike Court Borough Low 2",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-41.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Air Jordan 1 Low Travis Scott x OG",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-42.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Tênis GUCCI X OF-WHITE",
+    "category": "casual",
+    "price": 379.99,
+    "image": "src/images/model-43.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Air Max TN BLACK",
+    "category": "esportivo",
+    "price": 449.99,
+    "image": "src/images/model-44.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Nike SB Dunk Low ",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-45.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Tênis Puma Suede XL",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-46.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Tênis GUCCI X BLUE MARINHO",
+    "category": "casual",
+    "price": 379.99,
+    "image": "src/images/model-47.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Tênis Puma Palermo",
+    "category": "esportivo",
+    "price": 219.99,
+    "image": "src/images/model-48.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Nike Court Borough Low 2 Classico",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-49.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Nike Air Force 1 Low Black White Rope Laces",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-50.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Nike Court Borough Low 2",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-51.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Air Max TN White",
+    "category": "esportivo",
+    "price": 549.99,
+    "image": "src/images/model-52.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Nike Air Force 1 Low Black White Rope Laces",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-53.jpg"
+  },
+  {
+    "id": 54,
+    "name": "New Balance 9060",
+    "category": "esportivo",
+    "price": 349.99,
+    "image": "src/images/model-54.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Tênis Puma Palermo White",
+    "category": "casual",
+    "price": 219.99,
+    "image": "src/images/model-55.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Tênis Puma Palermo White X Black",
+    "category": "esportivo",
+    "price": 219.99,
+    "image": "src/images/model-56.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Nike Court Borough Low 2",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-57.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Air Max TN BLACK",
+    "category": "esportivo",
+    "price": 549.99,
+    "image": "src/images/model-58.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Tênis Dunk SB Low",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-59.jpg"
+  },
+  {
+    "id": 60,
+    "name": "New Balance 9060",
+    "category": "esportivo",
+    "price": 349.99,
+    "image": "src/images/model-60.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Tênis Puma Suede XL",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-61.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Nike Court Borough Low 2 Panda",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-62.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Ambush x Nike Air Force 1 Low Black",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-63.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Nike Court Borough Low 2 Blue Marinho",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-64.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Air Max TN White",
+    "category": "casual",
+    "price": 549.99,
+    "image": "src/images/model-65.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Nike Court Borough Low 2 Panda",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-66.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Tênis VEJA CAMPO WHITE",
+    "category": "casual",
+    "price": 269.99,
+    "image": "src/images/model-67.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Tênis Vans KNU OFF-WHITE",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-68.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Tênis Vans Hylane",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-69.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Tênis Vans KNU Preto",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-70.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Ambush x Nike Air Force 1 Low Black",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-71.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Tênis Vans",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-72.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Tênis Casual ZARA",
+    "category": "casual",
+    "price": 329.99,
+    "image": "src/images/model-73.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Tênis Vans",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-74.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Tênis VEJA CAMPO WHITE",
+    "category": "casual",
+    "price": 269.99,
+    "image": "src/images/model-75.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Ambush x Nike Air Force 1 Low Black",
+    "category": "esportivo",
+    "price": 649.99,
+    "image": "src/images/model-76.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Air Jordan 4 Retro Military Black",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-77.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Tênis Casual ZARA",
+    "category": "esportivo",
+    "price": 329.99,
+    "image": "src/images/model-78.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Ambush x Nike Air Force 1 Low White",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-79.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Air Jordan 4 Retro Military Black",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-80.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Ambush x Nike Air Force 1 Low Panda",
+    "category": "casual",
+    "price": 349.99,
+    "image": "src/images/model-81.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Tênis Vans KNU Branco",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-82.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Tênis Vans KNU OFF-WHITE",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-83.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Tênis Vans Hylane",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-84.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Ambush x Nike Air Force 1 Low Panda",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-85.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Ambush x Nike Air Force 1 Low White",
+    "category": "esportivo",
+    "price": 649.99,
+    "image": "src/images/model-86.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Ambush x Nike Air Force 1 Low Black",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-87.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Tênis Alexander McQueen Oversized Sneaker",
+    "category": "esportivo",
+    "price": 329.99,
+    "image": "src/images/model-88.jpg"
+  },
+  {
+    "id": 89,
+    "name": "New Balance 9060",
+    "category": "casual",
+    "price": 349.99,
+    "image": "src/images/model-89.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Air Jordan 1 Low Travis Scott x Fragment",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-90.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Air Max Dn",
+    "category": "casual",
+    "price": 549.99,
+    "image": "src/images/model-91.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Tênis Vans Hylane Tri-Tone Grey Blue",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-92.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Nike Air Force 1 Low Black White Rope Laces",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-93.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Nike Asuna Slide",
+    "category": "esportivo",
+    "price": 199.99,
+    "image": "src/images/model-94.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Nike SB Dunk Low Black",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-95.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Tênis Casual ZARA White",
+    "category": "esportivo",
+    "price": 399.99,
+    "image": "src/images/model-96.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Tênis Nike Court Vision Alta",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-97.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Tênis Dunk SB Low Red",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-98.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Tênis Casual ZARA White",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-99.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Nike Asuna Slide White" ,
+    "category": "esportivo",
+    "price": 199.99,
+    "image": "src/images/model-100.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Tênis Dunk SB Low Salmão",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-101.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "esportivo",
+    "price": 269.90,
+    "image": "src/images/model-102.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Tênis Casual ZARA Black",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-103.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Tênis Nike Court Vision Alta",
+    "category": "esportivo",
+    "price": 649.99,
+    "image": "src/images/model-104.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Tênis Vans KNU OFF-WHITE",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-105.jpg"
+  },
+  {
+    "id": 106,
+    "name": "New Balance 9060 Blue",
+    "category": "esportivo",
+    "price": 349.99,
+    "image": "src/images/model-106.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Tênis Casual ZARA Black",
+    "category": "casual",
+    "price": 329.99,
+    "image": "src/images/model-107.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Nike SB Dunk Low Panda",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-108.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Nike Asuna Slide Grey",
+    "category": "casual",
+    "price": 199.99,
+    "image": "src/images/model-109.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Air Max Dn",
+    "category": "esportivo",
+    "price": 549.99,
+    "image": "src/images/model-110.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Tênis Nike Court Vision Alta Black",
+    "category": "casual",
+    "price": 649.99,
+    "image": "src/images/model-111.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Tênis Casual ZARA Black",
+    "category": "esportivo",
+    "price": 329.99,
+    "image": "src/images/model-112.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Tênis Vans KNU OFF-WHITE",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-113.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Tênis Vans KNU Vinho",
+    "category": "esportivo",
+    "price": 279.99,
+    "image": "src/images/model-114.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Tênis Vans KNU Grey",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-115.jpg"
+  },
+  {
+    "id": 116,
+    "name": " New Balance 9060 White",
+    "category": "esportivo",
+    "price": 349.99,
+    "image": "src/images/model-116.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Tênis Dunk SB Low Green",
+    "category": "casual",
+    "price": 259.99,
+    "image": "src/images/model-117.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Nike SB Dunk Low 0FF-WHITE",
+    "category": "esportivo",
+    "price": 259.99,
+    "image": "src/images/model-118.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-119.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Tênis Casual ZARA Black",
+    "category": "esportivo",
+    "price": 269.90,
+    "image": "src/images/model-120.jpg"
+  },
+  {
+    "id": 121,
+    "name": "New Balance 9060 White",
+    "category": "casual",
+    "price": 349.99,
+    "image": "src/images/model-121.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Tênis Nike Court Vision Alta Black",
+    "category": "esportivo",
+    "price": 649.99,
+    "image": "src/images/model-122.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "casual",
+    "price": 299.99,
+    "image": "src/images/model-123.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-124.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Tênis Vans KNU Grey",
+    "category": "casual",
+    "price": 279.99,
+    "image": "src/images/model-125.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "esportivo",
+    "price": 299.99,
+    "image": "src/images/model-126.jpg"
+  },
+  {
+    "id": 127,
+    "name": "New Balance 9060 White",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-127.jpg"
+  },
+  {
+    "id": 128,
+    "name": "New Balance 9060 Grey",
+    "category": "esportivo",
+    "price": 259.90,
+    "image": "src/images/model-128.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Nike SB Dunk Low Panda",
+    "category": "casual",
+    "price": 169.90,
+    "image": "src/images/model-129.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Air Jordan 1 Mid Light Smoke Grey",
+    "category": "esportivo",
+    "price": 279.90,
+    "image": "src/images/model-130.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Nike SB Dunk Low ",
+    "category": "casual",
+    "price": 189.90,
+    "image": "src/images/model-131.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Nike Asuna Slide",
+    "category": "esportivo",
+    "price": 249.90,
+    "image": "src/images/model-132.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Nike SB Dunk Low Red Grey",
+    "category": "casual",
+    "price": 159.90,
+    "image": "src/images/model-133.jpg"
+  },
+  {
+    "id": 134,
+    "name": "New Balance 9060",
+    "category": "esportivo",
+    "price": 229.90,
+    "image": "src/images/model-134.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Nike Air Force 1 Low Wolf Grey",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-135.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Air Max Dn",
+    "category": "esportivo",
+    "price": 269.90,
+    "image": "src/images/model-136.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "casual",
+    "price": 189.90,
+    "image": "src/images/model-137.jpg"
+  },
+  {
+    "id": 138,
+    "name": " Air Jordan 1 Low Travis Scott x OG",
+    "category": "esportivo",
+    "price": 239.90,
+    "image": "src/images/model-138.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Air Max TN 95",
+    "category": "casual",
+    "price": 169.90,
+    "image": "src/images/model-139.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "esportivo",
+    "price": 249.90,
+    "image": "src/images/model-140.jpg"
+  },
+  {
+    "id": 141,
+    "name": " New Balance 9060",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-141.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Adidas ADI2000",
+    "category": "esportivo",
+    "price": 259.90,
+    "image": "src/images/model-142.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Nike Air Force 1 Low White",
+    "category": "casual",
+    "price": 189.90,
+    "image": "src/images/model-143.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Tênis Casual ZARA Black",
+    "category": "esportivo",
+    "price": 269.90,
+    "image": "src/images/model-144.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Chinelo Adidas Yeezy Ônix",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-145.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Adidas Adi2000",
+    "category": "esportivo",
+    "price": 239.90,
+    "image": "src/images/model-146.jpg"
+  },
+  {
+    "id": 147,
+    "name": "Adidas Samba",
+    "category": "casual",
+    "price": 159.90,
+    "image": "src/images/model-147.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Tênis Casual ZARA",
+    "category": "esportivo",
+    "price": 249.90,
+    "image": "src/images/model-148.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Nike Air Force 1 Low White",
+    "category": "casual",
+    "price": 189.90,
+    "image": "src/images/model-149.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Adidas Adi2000 Black" ,
+    "category": "esportivo",
+    "price": 269.90,
+    "image": "src/images/model-150.jpg"
+  },
+  {
+    "id": 151,
+    "name": "Chinelo Adidas Adilette 22",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-151.jpg"
+  },
+  {
+    "id": 152,
+    "name": "Nike Air Force 1 Low White",
+    "category": "esportivo",
+    "price": 259.90,
+    "image": "src/images/model-152.jpg"
+  },
+  {
+    "id": 153,
+    "name": "Adidas Adi2000",
+    "category": "casual",
+    "price": 169.90,
+    "image": "src/images/model-153.jpg"
+  },
+  {
+    "id": 154,
+    "name": "Adidas ADI2000",
+    "category": "esportivo",
+    "price": 279.90,
+    "image": "src/images/model-154.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Tênis Louis Vuitton Skate Sneaker ",
+    "category": "casual",
+    "price": 189.90,
+    "image": "src/images/model-155.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Adidas Adi2000",
+    "category": "esportivo",
+    "price": 249.90,
+    "image": "src/images/model-156.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Adidas Samba",
+    "category": "casual",
+    "price": 159.90,
+    "image": "src/images/model-157.jpg"
+  },
+  {
+    "id": 158,
+    "name": "Adidas Adi2000",
+    "category": "esportivo",
+    "price": 229.90,
+    "image": "src/images/model-158.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Adidas Samba",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-159.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Tênis Casual ZARA Black",
+    "category": "esportivo",
+    "price": 269.90,
+    "image": "src/images/model-160.jpg"
+  },
+  {
+    "id": 161,
+    "name": "Adidas Adi2000 Black",
+    "category": "casual",
+    "price": 189.90,
+    "image": "src/images/model-161.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Adidas Adi2000",
+    "category": "esportivo",
+    "price": 239.90,
+    "image": "src/images/model-162.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Chinelo Adidas Adilette 22",
+    "category": "casual",
+    "price": 169.90,
+    "image": "src/images/model-163.jpg"
+  },
+  {
+    "id": 164,
+    "name": "Adidas Adi2000",
+    "category": "esportivo",
+    "price": 249.90,
+    "image": "src/images/model-164.jpg"
+  },
+  {
+    "id": 165,
+    "name": "Adidas Adi2000",
+    "category": "casual",
+    "price": 179.90,
+    "image": "src/images/model-165.jpg"
+  },
+  {
+    "id": 166,
+    "name": "Chinelo Adidas Yeezy White",
+    "category": "esportivo",
+    "price": 259.90,
+    "image": "src/images/model-166.jpg"
+  }
+]

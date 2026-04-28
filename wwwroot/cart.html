@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras - Tex Shoes</title>
+  <meta name="description" content="Seu carrinho de compras na Tex Shoes. Revise seus itens antes de finalizar a compra.">
+
+  <!-- Ícones (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- JS -->
+  <script src="/src/cart.js" defer></script>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="index.html" class="nav-logo">
+        <h2 class="logo-text">👟 TEX SHOES</h2>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="index.html#home" class="nav-link">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#about" class="nav-link">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#categories" class="nav-link">Categorias</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#featured" class="nav-link">Destaques</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#contact" class="nav-link">Contato</a>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="cart.html" class="nav-cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="cart-counter" class="cart-counter">0</span>
+        </a>
+        <a href="https://wa.me/5511910076475" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/texshoes_/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:luizateixeira347@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <button id="menu-toggle" class="fas fa-bars nav-icon" aria-controls="nav-menu" aria-expanded="false" aria-label="Abrir menu"></button>
+      </div>
+    </nav>
+  </header>
+
+    <main class="cart-page-main">
+        <section class="cart-section section-content">
+            <h1 class="section-title">Seu Carrinho de Compras</h1>
+
+            <!-- Cabeçalho da tabela do carrinho -->
+            <div id="cart-header" class="cart-header" style="display: none;">
+                <div class="header-product">Produto</div>
+                <div class="header-quantity">Quantidade</div>
+                <div class="header-price">Preço Unitário</div>
+                <div class="header-total">Subtotal</div>
+                <div class="header-remove">Remover</div>
+            </div>
+
+            <div id="cart-container" class="cart-container">
+                <p class="loading-cart">Carregando seu carrinho...</p>
+            </div>
+
+            <div id="cart-summary" class="cart-summary" style="display: none;">
+                <h2 class="summary-title">Resumo do Pedido</h2>
+                <div class="summary-item">
+                    <span>Subtotal</span>
+                    <span id="summary-subtotal">R$ 0,00</span>
+                </div>
+                <div class="summary-item total">
+                    <span>Total</span>
+                    <span id="summary-total">R$ 0,00</span>
+                </div>
+                <button class="button checkout-btn">Finalizar Compra</button>
+            </div>
+
+            <div id="empty-cart-message" class="empty-cart-message" style="display: none;">
+                <i class="fas fa-shopping-cart empty-cart-icon"></i>
+                <h2>Seu carrinho está vazio</h2>
+                <p>Adicione produtos ao seu carrinho para vê-los aqui.</p>
+                <a href="index.html#featured" class="button">Ver Produtos</a>
+            </div>
+        </section>
+    </main>
+
+  <!-- Rodapé -->
+  <footer class="footer-section">
+    <div class="section-content">
+      <p class="copyright-text">&copy; 2024 Tex Shoes. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

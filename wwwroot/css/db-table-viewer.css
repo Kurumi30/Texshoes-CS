@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #00E676; /* Bright Green */
+    border-bottom: 2px solid #00E676;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Layout */
+.dashboard-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-container {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    flex: 1;
+    min-width: 300px;
+}
+
+.table-container {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    flex: 2;
+    overflow-x: auto; /* For smaller screens */
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #B0B0B0;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #2C2C2C;
+    color: #E0E0E0;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for padding */
+}
+
+/* Style for file input button */
+input[type="file"]::-webkit-file-upload-button {
+  background: #00E676;
+  color: #121212;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #00E676;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #00C853;
+}
+
+/* Table Styles */
+#shoes-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#shoes-table th, #shoes-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+#shoes-table thead {
+    background-color: #2C2C2C;
+}
+
+#shoes-table th {
+    color: #00E676;
+}
+
+#shoes-table tbody tr:hover {
+    background-color: #2C2C2C;
+}
+
+#shoes-table img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button, .delete-button {
+    padding: 8px 12px;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.edit-button {
+    background-color: #2979FF; /* Blue */
+}
+
+.edit-button:hover {
+    background-color: #2962FF;
+}
+
+.delete-button {
+    background-color: #FF5252; /* Red */
+}
+
+.delete-button:hover {
+    background-color: #FF1744;
+}

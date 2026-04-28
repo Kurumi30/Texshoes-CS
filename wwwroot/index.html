@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Tex Shoes">
+  <title>Tex Shoes</title>
+
+  <link rel="shortcut icon" href="/src/images/logo-without-bg.png" type="image/x-icon">
+
+  <meta property="og:title" content="Tex Shoes">
+  <meta property="og:description" content="Tex Shoes">
+  <meta property="og:image" content="/src/images/logo-without-bg.png">
+  <meta property="og:url" content="">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/src/images/logo-without-bg.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/src/images/logo-without-bg.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/src/images/logo-without-bg.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">👟 TEX SHOES</h2>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a href="#categories" class="nav-link">Categorias</a>
+        </li>
+        <li class="nav-item">
+          <a href="#featured" class="nav-link">Destaques</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contato</a>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="cart.html" class="nav-cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="cart-counter" class="cart-counter">0</span>
+        </a>
+        <a href="https://wa.me/5511910076475" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/texshoes_/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:luizateixeira347@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <button id="menu-toggle" class="fas fa-bars nav-icon" aria-controls="nav-menu" aria-expanded="false"
+          aria-label="Abrir menu"></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção Principal (Hero) -->
+    <section class="hero-section" id="home">
+      <div class="section-content hero-content">
+        <div class="hero-details">
+          <h1 class="title">Estilo e Conforto a Cada Passo</h1>
+
+          <p class="description">
+            Descubra as últimas tendências em calçados e encontre o par perfeito para você.
+          </p>
+
+          <a href="#featured" class="button">Ver Coleção</a>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img src="/src/images/logo-without-bg.png" alt="Tênis em destaque" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <h2 class="section-title">Sobre a Tex Shoes</h2>
+
+      <div class="section-content about-content">
+        <div class="about-image-wrapper">
+          <img src="/src/images/logo.jpg" alt="Loja Tex Shoes" class="about-image" />
+        </div>
+
+        <div class="about-details">
+          <h3 class="about-subtitle">Nossa História</h3>
+
+          <p class="about-description">
+            Somos uma loja on-line especializada em venda de tênis personalizada e especial. Na Tex Shoes, sua
+            satisfação é nossa <b>PRIORIDADE</b>
+          </p>
+
+          <h3 class="about-subtitle">Nossos Valores</h3>
+
+          <ul class="about-values">
+            <li>
+              <i class="fas fa-check-circle"></i> Conforto
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Qualidade
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Atendimento diferenciado
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Envio rápido para todos os nossos clientes
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories-section" id="categories">
+      <h2 class="section-title">Navegue por Categoria</h2>
+      <div class="section-content category-grid">
+        <a href="#" class="category-card active-category" data-category="all">
+          <div class="category-icon-wrapper">
+            <i class="fas fa-tags"></i>
+          </div>
+          <h3 class="category-name">Todos</h3>
+        </a>
+
+        <a href="#" class="category-card" data-category="esportivo">
+          <div class="category-icon-wrapper">
+            <i class="fas fa-running"></i>
+          </div>
+          <h3 class="category-name">Esportivo</h3>
+        </a>
+
+        <a href="#" class="category-card" data-category="casual">
+          <div class="category-icon-wrapper">
+            <i class="fas fa-shoe-prints"></i>
+          </div>
+          <h3 class="category-name">Casual</h3>
+        </a>
+
+        <a href="#" class="category-card" data-category="aventura">
+          <div class="category-icon-wrapper">
+            <i class="fas fa-hiking"></i>
+          </div>
+          <h3 class="category-name">Aventura</h3>
+        </a>
+        
+        <a href="#" class="category-card" data-category="social">
+          <div class="category-icon-wrapper">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3 class="category-name">Social</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- Seção de Produtos em Destaque -->
+    <section class="products-section" id="featured">
+      <h2 class="section-title">Nossos Destaques</h2>
+
+      <div class="section-content product-grid">
+        <!-- Os produtos serão renderizados através do JavaScript -->
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="policy-section" id="policy">
+      <h2 class="section-title">Política Da Loja</h2>
+
+      <div class="section-content policy-content">
+        <h3><i class="fas fa-briefcase" aria-hidden="true" style="margin-right:8px"></i>FORMA DE TRABALHO</h3>
+        <p>Apenas sob encomenda. Não possuímos estoque.</p>
+
+        <h3><i class="fas fa-exchange-alt" aria-hidden="true" style="margin-right:8px"></i>TROCA</h3>
+        <p>Para efetuar a troca, o produto não deve estar sujo e sem sinais de uso. O prazo para troca é de 3 dias.</p>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Fale Conosco</h2>
+
+      <div class="section-content contact-content">
+        <div class="contact-table-wrapper">
+          <table class="contact-table" role="table" aria-label="Informações de contato">
+            <thead>
+              <tr>
+                <th colspan="2">Fazemos entregas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="icon-cell" aria-hidden="true"><i class="fas fa-truck"></i></td>
+                <td>
+                  <!-- <strong>Fazemos entregas</strong> -->
+                  <div class="delivery-cards">
+                    <div class="delivery-card">
+                      <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+
+                      <strong>REGIÃO DE DIADEMA</strong><br>
+                      Frete grátis até 5 km
+                    </div>
+
+                    <div class="delivery-card">
+                      <i class="fas fa-globe" aria-hidden="true"></i>
+
+                      <strong>ENTREGA PARA TODO O BRASIL</strong><br>
+                      Frete a calcular
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- <tr>
+                <td class="icon-cell"><i class="fas fa-info-circle" aria-hidden="true"></i></td>
+                <td>Vendas somente online</td>
+              </tr> -->
+
+              <tr>
+                <td class="icon-cell"><i class="fas fa-envelope" aria-hidden="true"></i></td>
+                <td><a href="mailto:luizateixeira347@gmail.com">luizateixeira347@gmail.com</a></td>
+              </tr>
+
+              <tr>
+                <td class="icon-cell"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></td>
+                <td><a href="https://wa.me/5511910076475" target="_blank" rel="noopener noreferrer">(11) 91007-6475</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="icon-cell"><i class="fa-brands fa-instagram" aria-hidden="true"></i></td>
+                <td><a href="https://www.instagram.com/texshoes_/" target="_blank"
+                    rel="noopener noreferrer">@texshoes_</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer-section">
+    <div class="section-content">
+      <p class="copyright-text">&copy; 2026 Tex Shoes. Todos os direitos reservados.</p>
+      <!-- <p class="policy-text">
+        <a href="#" class="policy-link">Política de Privacidade</a>
+        <span class="separator">•</span>
+        <a href="#" class="policy-link">Política de Reembolso</a>
+      </p> -->
+    </div>
+  </footer>
+
+  <div id="image-modal" class="modal">
+    <span class="modal-close">&times;</span>
+
+    <img class="modal-content" id="modal-image" loading="lazy">
+  </div>
+
+  <div id="size-guide-modal" class="modal">
+    <div class="modal-content-table">
+      <span class="modal-close size-guide-close">&times;</span>
+
+      <h2>Guia de Medidas</h2>
+
+      <table class="size-table">
+        <thead>
+          <tr>
+            <th>Medida</th>
+            <th>BR</th>
+            <th>US</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>22,5 CM</td>
+            <td>34</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>23,0 CM</td>
+            <td>35</td>
+            <td>5,5</td>
+          </tr>
+          <tr>
+            <td>24,0 CM</td>
+            <td>36</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>24,5 CM</td>
+            <td>37</td>
+            <td>6,5</td>
+          </tr>
+          <tr>
+            <td>25,5 CM</td>
+            <td>38</td>
+            <td>7,5</td>
+          </tr>
+          <tr>
+            <td>26,0 CM</td>
+            <td>39</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>27,0 CM</td>
+            <td>40</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>27,5 CM</td>
+            <td>41</td>
+            <td>9,5</td>
+          </tr>
+          <tr>
+            <td>28,0 CM</td>
+            <td>42</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>29,0 CM</td>
+            <td>43</td>
+            <td>10,5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="purchase-modal" class="modal" aria-hidden="true">
+    <div class="modal-content-table">
+      <span class="modal-close purchase-close">&times;</span>
+
+      <h2>Como deseja comprar?</h2>
+
+      <p id="purchase-product-name"></p>
+
+      <div class="button-container">
+        <a id="purchase-whatsapp" class="button" href="#" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-whatsapp" style="margin-right:8px"></i> WhatsApp
+        </a>
+
+        <a id="purchase-instagram" class="button" href="https://www.instagram.com/texshoes_/" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-instagram" style="margin-right:8px"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/src/script.js"></script>
+</body>
+
+</html>
