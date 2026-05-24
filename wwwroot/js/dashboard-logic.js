@@ -8,10 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-            const shoesResponse = await response.json();
-            // The API wraps the array in a "value" property, so we extract it.
-            const shoes = shoesResponse.value; 
-            renderShoes(shoes);
+            const shoesData = await response.json();
+            console.log('API Response Data:', JSON.stringify(shoesData, null, 2));
+            renderShoes(shoesData);
         } catch (error) {
             console.error('Erro ao buscar dados:', error);
         }
@@ -23,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Add a check to ensure shoes is an array
         if (!Array.isArray(shoes)) {
             console.error('Data received is not an array:', shoes);
             shoesTableBody.innerHTML = '<tr><td colspan="6">Erro ao carregar os dados. Verifique o console.</td></tr>';
